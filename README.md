@@ -14,7 +14,7 @@ All I've done is install it in a docker container for use.
 
 That should get you going. 
 
-You can also add [haxor-news](/haxor-news) to your `$PATH' and simple do `haxor-news`
+You can also add the [haxor-news](/haxor-news) file to your `$PATH' and simple do `haxor-news`
 
 ## Issues
 
