@@ -10,7 +10,11 @@ All I've done is install it in a docker container for use.
 
 ## Usage
 
-`docker run -it --rm -v /etc/localtime:/etc/localtime:ro gruen/haxor-news`
+```shell
+docker run -it --rm \
+    -v /etc/localtime:/etc/localtime:ro \
+    gruen/haxor-news
+```
 
 That should get you going. 
 
@@ -18,5 +22,4 @@ You can also add the [haxor-news](/haxor-news) file to your `$PATH' and simple d
 
 ## Issues
 
-Opening links in a browser is not supported. 
-(I'm sure there's a way to do this, I just haven't spent the time to investigate)
+-   Opening links in a browser is not supported. _(I'm sure there's a way to do this, I just haven't spent the time to investigate)_
